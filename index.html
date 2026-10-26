@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f6ff">
+  <meta name="description" content="Четыре приключения в Эквестрии: радужный полёт, парочки дружбы, мелодия дружбы и магия единорога. Играй бесплатно в браузере!">
+  <title>Pony Club — маленькие игры, большая магия</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="horn.css">
+  <script src="art.js" defer></script>
+  <script src="horn.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#games">К играм</a>
+  <header class="header">
+    <a class="brand" href="#" aria-label="Pony Club — главная"><span class="brand-mark" data-icon="rainbow"></span><span>Pony<span class="brand-light">Club</span><i>мир маленьких приключений</i></span></a>
+    <nav class="navigation" aria-label="Основное меню">
+      <a class="nav-link active" href="#games"><span data-icon="gamepad"></span>Игры</a>
+      <button class="nav-link" id="achievements-nav"><span data-icon="trophy"></span>Достижения<span class="nav-count" id="achievement-count">0</span></button>
+      <button class="nav-link about-trigger">О клубе</button>
+    </nav>
+    <div class="header-actions"><button class="icon-button sound-toggle" aria-label="Включить звук" title="Включить звук"><span data-icon="sound-off"></span></button><span class="header-divider"></span><span class="avatar" title="Твой профиль на этом устройстве" data-icon="sparkle"></span></div>
+  </header>
+
+  <main class="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <img class="hero-art" src="assets/equestria-hero.webp" width="1942" height="809" alt="Сумеречная Искорка, Радуга Дэш, Пинки Пай, Флаттершай, Эпплджек и Рарити на цветочной поляне в Эквестрии" fetchpriority="high">
+      <div class="hero-wash"></div>
+      <div class="hero-copy">
+        <span class="eyebrow"><span data-icon="sparkle"></span>ДРУЖБА — ЭТО МАГИЯ</span>
+        <h1 id="hero-title">Маленькие игры.<br>Большая <span>магия.</span></h1>
+        <p>Загляни в Эквестрию, найди любимую игру<br class="desktop-break"> и подари себе немного волшебства.</p>
+        <a class="button button-primary" href="#games"><span data-icon="play"></span>Давай играть<span data-icon="arrow-right"></span></a>
+        <div class="hero-note"><span class="tiny-avatars"><span>✦</span><span>♥</span><span>☁</span></span>С любимыми пони веселее!</div>
+      </div>
+      <span class="hero-sticker"><span data-icon="heart"></span>Твоё уютное место</span>
+      <span class="hero-sparkle sparkle-one">✧</span><span class="hero-sparkle sparkle-two">✦</span>
+    </section>
+
+    <div class="feature-strip" aria-label="Особенности сборника"><span><i data-icon="gamepad"></i>4 игры — 4 приключения</span><b>✦</b><span><i data-icon="heart"></i>Без спешки и с любовью</span><b>✦</b><span><i data-icon="monitor"></i>3 игры везде + 1 только на ПК</span><b>✦</b><span><i data-icon="sparkle"></i>Магия в каждом клике</span></div>
+
+    <section class="games-section" id="games" aria-labelledby="games-title">
+      <div class="section-top"><div><div class="section-kicker">ТВОЁ СЛЕДУЮЩЕЕ ПРИКЛЮЧЕНИЕ</div><h2 id="games-title">Во что поиграем?</h2></div><button class="random-button" id="random-game"><span data-icon="shuffle"></span>Выбери за меня<span data-icon="arrow-right"></span></button></div>
+      <div class="games-toolbar"><div class="filters" role="group" aria-label="Фильтр игр"><button class="filter active" data-filter="all" aria-pressed="true">Все игры <span id="all-games-count">4</span></button><button class="filter" data-filter="favorites" aria-pressed="false"><i data-icon="heart"></i>Любимые <span id="favorites-count">0</span></button></div><span class="toolbar-hint"><span class="online-dot"></span>Можно играть прямо сейчас</span></div>
+      <div class="game-grid" id="game-grid">
+        <article class="game-card" data-game="flight">
+          <div class="card-art flight-art"><div class="art-content" id="flight-cover"></div><span class="genre-badge"><i data-icon="bolt"></i>АРКАДА</span><button class="favorite-button" data-favorite="flight" aria-label="Добавить «Радужный полёт» в любимые" aria-pressed="false"><span data-icon="heart"></span></button><span class="cover-caption">выше облаков</span></div>
+          <div class="card-body"><div class="card-meta"><span class="character-dot blue"></span>Радуга Дэш<span class="game-duration">75 секунд</span></div><h3>Радужный полёт</h3><p>Лети навстречу радуге! Собирай звёздочки и ловко обходи грозовые тучки.</p><div class="card-bottom"><span class="game-controls"><i data-icon="arrows"></i>Ловкость и реакция</span><button class="play-button" data-play="flight">Играть<span data-icon="arrow-right"></span></button></div><div class="card-record" data-record="flight">Твой первый рекорд ещё впереди</div></div>
+        </article>
+        <article class="game-card" data-game="memory">
+          <div class="card-art memory-art"><div class="art-content" id="memory-cover"></div><span class="genre-badge"><i data-icon="cards"></i>НА ПАМЯТЬ</span><button class="favorite-button" data-favorite="memory" aria-label="Добавить «Парочки дружбы» в любимые" aria-pressed="false"><span data-icon="heart"></span></button><span class="cover-caption">дружба на двоих</span></div>
+          <div class="card-body"><div class="card-meta"><span class="character-dot purple"></span>Сумеречная Искорка<span class="game-duration">Без таймера</span></div><h3>Парочки дружбы</h3><p>За каждой карточкой прячется друг. Найди все пары и собери пони вместе!</p><div class="card-bottom"><span class="game-controls"><i data-icon="brain"></i>Память и внимание</span><button class="play-button" data-play="memory">Играть<span data-icon="arrow-right"></span></button></div><div class="card-record" data-record="memory">Твой первый рекорд ещё впереди</div></div>
+        </article>
+        <article class="game-card" data-game="rhythm">
+          <div class="card-art rhythm-art"><div class="art-content" id="rhythm-cover"></div><span class="genre-badge"><i data-icon="music"></i>РИТМ-ИГРА</span><button class="favorite-button" data-favorite="rhythm" aria-label="Добавить «Мелодия дружбы» в любимые" aria-pressed="false"><span data-icon="heart"></span></button><span class="cover-caption">поймай свой ритм</span></div>
+          <div class="card-body"><div class="card-meta"><span class="character-dot pink"></span>Пинки Пай<span class="game-duration">30 секунд</span></div><h3>Мелодия дружбы</h3><p>Устрой маленький праздник! Попадай в ритм и зажигай звёзды на танцполе.</p><div class="card-bottom"><span class="game-controls"><i data-icon="music"></i>Музыка и ритм</span><button class="play-button" data-play="rhythm">Играть<span data-icon="arrow-right"></span></button></div><div class="card-record" data-record="rhythm">Твой первый рекорд ещё впереди</div></div>
+        </article>
+        <article class="game-card" data-game="horn">
+          <div class="card-art horn-art"><div class="art-content" id="horn-cover"></div><span class="genre-badge"><i data-icon="sparkle"></i>МАГИЯ · НОВИНКА</span><button class="favorite-button" data-favorite="horn" aria-label="Добавить «Магия единорога» в любимые" aria-pressed="false"><span data-icon="heart"></span></button><span class="cover-caption">больше рог — сильнее магия</span></div>
+          <div class="card-body"><div class="card-meta"><span class="character-dot mint"></span>Рарити<span class="game-duration">60 секунд · Только ПК</span></div><h3>Магия единорога</h3><p>Води мышью по рогу, накапливай силу и попадай магическими снарядами в монстриков!</p><div class="card-bottom"><span class="game-controls"><i data-icon="mouse"></i>Мышь · Только ПК</span><button class="play-button" data-play="horn">Играть<span data-icon="arrow-right"></span></button></div><div class="card-record" data-record="horn">Твой первый рекорд ещё впереди</div></div>
+        </article>
+      </div>
+      <div class="empty-state" id="empty-favorites" hidden><span data-icon="heart"></span><h3>Здесь будут любимые игры</h3><p>Нажми на сердечко на карточке, чтобы сохранить игру.</p><button class="button button-primary" id="show-all">Посмотреть все игры</button></div>
+    </section>
+
+    <section class="journey" aria-labelledby="journey-title"><div class="journey-symbol" data-icon="trophy"></div><div class="journey-copy"><span class="section-kicker">ШАГ ЗА ШАГОМ К ВОЛШЕБСТВУ</span><h2 id="journey-title">У каждой дружбы есть история</h2><p id="journey-text">Начни с одной игры — и открой своё первое достижение.</p></div><div class="journey-progress"><span><b id="journey-count">0 из 8</b> достижений</span><div class="progress-track"><div id="journey-fill"></div></div></div><button class="journey-button" id="journey-open" aria-label="Посмотреть достижения"><span data-icon="arrow-right"></span></button></section>
+    <div class="little-note"><span data-icon="heart"></span>Здесь нет проигравших. Только маленькие шаги к большим победам.</div>
+  </main>
+  <footer class="footer"><a class="footer-brand" href="#"><span data-icon="rainbow"></span>PonyClub</a><span>Сделано с магией дружбы <span class="footer-star">✦</span></span><button class="about-trigger">Неофициальный фан-проект My Little Pony</button></footer>
+
+  <dialog class="game-dialog" id="game-dialog" aria-labelledby="game-title">
+    <div class="game-modal-header"><div class="modal-game-icon" id="modal-game-icon"></div><div><span class="section-kicker" id="game-kicker"></span><h2 id="game-title"></h2></div><div class="game-modal-actions"><button class="icon-button sound-toggle" aria-label="Включить звук" title="Включить звук"><span data-icon="sound-off"></span></button><button class="icon-button" id="pause-game" aria-label="Приостановить игру" title="Пауза" disabled><span data-icon="pause"></span></button><button class="icon-button" id="close-game" aria-label="Закрыть игру" title="Закрыть"><span data-icon="close"></span></button></div></div>
+    <div class="game-hud"><span id="hud-primary">Счёт: 0</span><span id="hud-middle"></span><span id="hud-secondary"></span></div>
+    <div class="game-stage" id="game-stage"><canvas id="game-canvas" width="960" height="500" aria-label="Игровое поле"></canvas><div id="memory-board" class="memory-board" hidden></div><div class="stage-overlay" id="stage-overlay"><div class="overlay-content" id="overlay-content"></div></div></div>
+    <div class="rhythm-pads" id="rhythm-pads" hidden><button data-lane="0" style="--pad:#a181f0">D<span>✦</span></button><button data-lane="1" style="--pad:#ee91ba">F<span>♥</span></button><button data-lane="2" style="--pad:#6fc8dc">J<span>☁</span></button><button data-lane="3" style="--pad:#e8bf67">K<span>♫</span></button></div>
+    <div class="horn-controls" id="horn-controls" hidden><div class="horn-power"><span>Сила выстрела <strong id="horn-power-value">0% · Урон 1</strong></span><div class="horn-charge-track" id="horn-charge-track" role="progressbar" aria-label="Заряд магического рога" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div id="horn-power-fill"></div></div></div><p id="horn-instruction">Зажми ЛКМ на роге и води курсором вдоль него.</p><span id="horn-stats">Разогнано: 0</span></div>
+    <div class="game-help"><span id="game-help-text"></span><span class="saved-note"><span data-icon="shield"></span>Рекорды сохраняются на устройстве</span></div>
+  </dialog>
+  <dialog class="info-dialog" id="achievements-dialog" aria-labelledby="achievements-title"><div class="info-header"><div><span class="section-kicker">ТВОЯ ИСТОРИЯ ДРУЖБЫ</span><h2 id="achievements-title">Маленькие победы</h2></div><button class="icon-button" data-close-dialog="achievements-dialog" aria-label="Закрыть"><span data-icon="close"></span></button></div><p class="info-lead">Играй, пробуй новое и собирай свою коллекцию волшебных моментов.</p><div class="achievements-grid" id="achievements-grid"></div><p class="privacy-note">Прогресс хранится в этом браузере. Аккаунт не нужен.</p></dialog>
+  <dialog class="info-dialog about-dialog" id="about-dialog" aria-labelledby="about-title"><div class="info-header"><div><span class="section-kicker">ДОБРО ПОЖАЛОВАТЬ В КЛУБ</span><h2 id="about-title">Волшебство рядом</h2></div><button class="icon-button" data-close-dialog="about-dialog" aria-label="Закрыть"><span data-icon="close"></span></button></div><div class="about-rainbow" data-icon="rainbow"></div><p>Pony Club — уютный сборник четырёх игр по мотивам <strong>My Little Pony: Friendship Is Magic</strong>. Здесь можно полетать с Радугой Дэш, потренировать память с Искоркой, поймать ритм с Пинки Пай и защитить поляну магией Рарити.</p><p>Все игры бесплатны. Первые три доступны на компьютере и телефоне, а «Магия единорога» — только на ПК с мышью. Звук можно включить кнопкой вверху. Нажми <kbd>Esc</kbd>, чтобы поставить активную игру на паузу; на экране паузы эта клавиша вернёт тебя к игре.</p><div class="fan-note">Неофициальный фан-проект. My Little Pony и персонажи принадлежат Hasbro. Проект не связан с Hasbro и не одобрен правообладателем. Иллюстрация создана с помощью ИИ, музыка синтезируется в браузере.</div></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

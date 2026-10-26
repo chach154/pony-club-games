@@ -1,0 +1,501 @@
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(assets/fonts/manrope-1.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(assets/fonts/manrope-2.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(assets/fonts/manrope-3.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(assets/fonts/manrope-4.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(assets/fonts/manrope-5.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(assets/fonts/manrope-6.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(assets/fonts/manrope-1.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(assets/fonts/manrope-2.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(assets/fonts/manrope-3.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(assets/fonts/manrope-4.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(assets/fonts/manrope-5.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(assets/fonts/manrope-6.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(assets/fonts/manrope-1.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(assets/fonts/manrope-2.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(assets/fonts/manrope-3.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(assets/fonts/manrope-4.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(assets/fonts/manrope-5.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(assets/fonts/manrope-6.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(assets/fonts/manrope-1.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(assets/fonts/manrope-2.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(assets/fonts/manrope-3.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(assets/fonts/manrope-4.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(assets/fonts/manrope-5.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(assets/fonts/manrope-6.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(assets/fonts/manrope-1.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(assets/fonts/manrope-2.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(assets/fonts/manrope-3.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(assets/fonts/manrope-4.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(assets/fonts/manrope-5.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(assets/fonts/manrope-6.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(assets/fonts/nunito-1.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(assets/fonts/nunito-2.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(assets/fonts/nunito-3.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(assets/fonts/nunito-4.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(assets/fonts/nunito-5.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(assets/fonts/nunito-1.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(assets/fonts/nunito-2.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(assets/fonts/nunito-3.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(assets/fonts/nunito-4.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(assets/fonts/nunito-5.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(assets/fonts/nunito-1.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(assets/fonts/nunito-2.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(assets/fonts/nunito-3.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(assets/fonts/nunito-4.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(assets/fonts/nunito-5.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(assets/fonts/nunito-1.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(assets/fonts/nunito-2.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(assets/fonts/nunito-3.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(assets/fonts/nunito-4.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(assets/fonts/nunito-5.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 1000;
+  font-display: swap;
+  src: url(assets/fonts/nunito-1.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 1000;
+  font-display: swap;
+  src: url(assets/fonts/nunito-2.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 1000;
+  font-display: swap;
+  src: url(assets/fonts/nunito-3.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 1000;
+  font-display: swap;
+  src: url(assets/fonts/nunito-4.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 1000;
+  font-display: swap;
+  src: url(assets/fonts/nunito-5.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+:root{--ink:#38314f;--muted:#8d879f;--purple:#9270d5;--purple-dark:#7851bd;--line:#ece8f4;--bg:#fbfaff;--heading:'Nunito','Trebuchet MS',sans-serif;--body:'Manrope','Segoe UI',sans-serif}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:28px}body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:14px;-webkit-font-smoothing:antialiased}button,a,input{-webkit-tap-highlight-color:transparent}button,a{touch-action:manipulation}button{font:inherit;cursor:pointer}button{border:0}a{color:inherit;text-decoration:none}svg{width:22px;height:22px;display:block}button:focus-visible,a:focus-visible{outline:3px solid #a08adf;outline-offset:5px}button:disabled{opacity:.4;cursor:default}[hidden]{display:none!important}.skip-link{position:fixed;top:-100px;left:16px;padding:12px;background:white;z-index:30}.skip-link:focus{top:12px}.header{max-width:1440px;margin:auto;height:101px;padding:0 6%;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{display:flex;align-items:center;gap:11px;font:900 28px/.95 var(--heading);letter-spacing:-1px}.brand-mark svg{width:47px;height:47px}.brand-light{color:#9874d7}.brand i{display:block;font:500 9px/1.6 var(--body);letter-spacing:1px;color:var(--muted);margin-top:6px}.navigation{display:flex;align-items:center;gap:29px;margin-left:30px;height:100%}.nav-link{display:flex;align-items:center;gap:8px;font-size:12px;font-weight:700;background:transparent;color:#8c879a;white-space:nowrap;position:relative;height:100%;padding:0}.nav-link svg{width:18px;height:18px}.nav-link.active{color:#8d68cb}.nav-link.active:after{position:absolute;content:'';width:25px;height:3px;background:#aa85df;border-radius:3px;bottom:17px;left:50%;transform:translateX(-50%)}.nav-link:hover{color:var(--purple-dark)}.nav-count{font-size:10px;background:#eeebf6;padding:2px 6px;border-radius:6px}.header-actions{display:flex;align-items:center;gap:18px}.icon-button{background:transparent;color:#9085a3;width:36px;height:36px;border-radius:11px;display:grid;place-items:center}.icon-button:hover{background:#eee8f8;color:var(--purple-dark)}.icon-button svg{width:20px;height:20px}.header-divider{width:1px;height:23px;background:#eae5f2}.avatar{display:grid;place-items:center;width:38px;height:38px;border-radius:50%;background:#eee5ff;color:#a483d7;border:3px solid white;box-shadow:0 0 0 1px #eee5f8}.avatar svg{width:19px;height:19px}.main{max-width:1440px;margin:auto;padding:0 6%}.hero{position:relative;min-height:419px;border-radius:26px;overflow:hidden;background:linear-gradient(110deg,#eee6ff,#dfecfb);isolation:isolate}.hero-art{position:absolute;width:100%;height:100%;object-fit:cover;object-position:center 57%;z-index:-3}.hero-wash{position:absolute;inset:0;background:linear-gradient(90deg,#f0e9ff 0%,#f0e9fff5 22%,#f0e9ffa6 39%,#f0e9ff00 63%);z-index:-2}.hero-copy{padding:44px 46px 30px;position:relative;max-width:530px}.eyebrow{display:inline-flex;gap:7px;align-items:center;font-size:9px;letter-spacing:1.6px;font-weight:800;color:#9b7ac6;background:#ffffffac;border:1px solid #ffffffb3;border-radius:7px;padding:7px 11px}.eyebrow svg{width:13px;height:13px}h1,h2,h3,p{margin:0}h1{font:1000 clamp(35px,3.4vw,50px)/1.12 var(--heading);letter-spacing:-1.7px;margin-top:19px}h1 span{color:#9b70cf} .hero-copy>p{font-size:13px;line-height:1.9;color:#7e718f;margin:16px 0 24px}.button{display:inline-flex;align-items:center;justify-content:center;gap:13px;border-radius:11px;padding:13px 20px;font-size:12px;font-weight:800;min-height:46px}.button svg{width:16px;height:16px}.button-primary{background:#9671d0;color:white;box-shadow:0 6px 15px #8e68c32b;transition:background .2s,transform .2s}.button-primary:hover{background:#825cbe;transform:translateY(-2px)}.button-primary>span:last-child{margin-left:12px}.hero-note{display:flex;align-items:center;gap:10px;font-size:9px;color:#9a8ba8;margin-top:24px}.tiny-avatars{display:flex;padding-left:6px}.tiny-avatars>span{display:grid;place-items:center;margin-left:-6px;width:23px;height:23px;border:2px solid #f2eaff;border-radius:50%;background:#bdb1ed;color:white;font-size:13px}.tiny-avatars>span:nth-child(2){background:#eab1d1}.tiny-avatars>span:nth-child(3){background:#97d0e6}.hero-sticker{position:absolute;right:23px;bottom:22px;display:flex;align-items:center;gap:7px;padding:10px 14px;border:1px solid #ffffffc4;background:#ffffffce;backdrop-filter:blur(8px);font-size:10px;border-radius:10px;transform:rotate(-4deg);color:#9784a1}.hero-sticker svg{width:14px;height:14px;color:#d88db2}.hero-sparkle{position:absolute;color:white;line-height:1;opacity:.8}.sparkle-one{top:40px;left:46%;font-size:41px}.sparkle-two{bottom:54px;left:43%;font-size:23px}.feature-strip{display:flex;justify-content:space-between;align-items:center;padding:24px 24px;color:#887a98;font-size:11px;font-weight:600}.feature-strip>span{display:flex;align-items:center;gap:7px}.feature-strip svg{width:15px;height:15px;color:#b7a3d0}.feature-strip>b{font-size:9px;color:#d3c7e4}.games-section{padding-top:23px;scroll-margin-top:20px}.section-top{display:flex;align-items:center;justify-content:space-between;gap:16px}.section-kicker{font-size:8px;letter-spacing:1.8px;font-weight:800;color:#ac9abb}.section-top h2{font:900 29px/1.2 var(--heading);letter-spacing:-.5px;margin-top:6px}.random-button{display:flex;align-items:center;gap:9px;background:transparent;color:#9a7cba;font-size:10px;font-weight:700;padding:10px 0}.random-button svg{width:15px;height:15px}.random-button>span:last-child{margin-left:6px}.random-button:hover{color:var(--purple-dark)}.games-toolbar{display:flex;justify-content:space-between;align-items:center;margin:23px 0 20px}.filters{display:flex;gap:6px;background:#f0edf6;padding:4px;border-radius:10px}.filter{display:flex;align-items:center;gap:6px;background:transparent;padding:8px 14px;color:#a096ad;font-size:10px;font-weight:700;border-radius:7px;min-height:34px}.filter.active{background:white;color:#936ec2;box-shadow:0 2px 5px #6551730a}.filter span{background:#f0ebf8;padding:1px 5px;font-size:9px;border-radius:4px;color:#b09ac7}.filter svg{width:12px;height:12px}.toolbar-hint{font-size:9px;color:#a79fae;display:flex;align-items:center;gap:6px}.online-dot{display:inline-block;background:#9fceb6;width:5px;height:5px;border-radius:50%;box-shadow:0 0 0 3px #9fceb616}.game-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}.game-card{background:white;border:1px solid #eeebf3;border-radius:18px;overflow:hidden;transition:transform .25s,box-shadow .25s}.game-card:hover{transform:translateY(-5px);box-shadow:0 12px 36px #604d7d10}.card-art{height:201px;position:relative;overflow:hidden}.flight-art{background:#d9effb}.memory-art{background:#e9def6}.rhythm-art{background:#f7dfed}.art-content{width:100%;height:100%;display:flex;align-items:center;justify-content:center}.art-content>svg{width:100%;height:100%;object-fit:cover}.genre-badge{display:flex;align-items:center;gap:5px;position:absolute;top:14px;left:14px;border:1px solid #ffffffb2;border-radius:6px;background:#ffffffbd;backdrop-filter:blur(8px);padding:5px 7px;color:#8c8ca5;font-size:7px;letter-spacing:.8px;font-weight:800}.genre-badge svg{width:11px;height:11px}.favorite-button{position:absolute;top:12px;right:13px;display:grid;place-items:center;background:#ffffffbd;color:#b3a9c1;width:28px;height:28px;border-radius:50%;backdrop-filter:blur(8px)}.favorite-button svg{width:14px;height:14px}.favorite-button[aria-pressed=true]{color:#d576a7;background:#fff1f8}.favorite-button[aria-pressed=true] svg{fill:#d576a7}.favorite-button:hover{background:white;color:#d576a7}.cover-caption{position:absolute;bottom:11px;left:16px;font:700 10px var(--heading);letter-spacing:.4px;color:#ffffffee;text-shadow:0 1px 5px #8f82a899}.card-body{padding:19px 20px 0}.card-meta{display:flex;align-items:center;gap:5px;font-size:10px;color:#8b7c98;font-weight:600}.character-dot{width:5px;height:5px;border-radius:50%}.blue{background:#89c6e1}.purple{background:#b29cdb}.pink{background:#e3a7c5}.game-duration{margin-left:auto;font-size:9px;color:#9f90aa}.card-body h3{font:900 22px/1.3 var(--heading);margin:9px 0 8px;letter-spacing:-.5px}.card-body p{font-size:12px;line-height:1.85;color:#86788f;max-width:350px;min-height:45px}.card-bottom{display:flex;justify-content:space-between;align-items:center;margin:19px 0 16px;gap:8px}.game-controls{display:flex;align-items:center;gap:5px;font-size:9px;color:#93829f}.game-controls svg{width:13px;height:13px}.play-button{display:flex;align-items:center;justify-content:center;gap:14px;background:#f1ebfa;color:#9773c8;border-radius:8px;font-size:10px;font-weight:800;padding:9px 12px;transition:background .2s,color .2s}.play-button svg{width:13px;height:13px}.play-button:hover{background:#9b75d1;color:white}.card-record{padding:11px 0 12px;border-top:1px solid #f2eff6;font-size:9px;color:#9b88a8}.card-record.has-record{color:#9b7dbd}.empty-state{text-align:center;padding:44px;border:1px dashed #ddd1ed;border-radius:16px;color:var(--muted)}.empty-state>span{display:block;margin:0 auto 12px;width:30px}.empty-state h3{font-family:var(--heading);font-size:22px;color:var(--ink)}.empty-state p{margin:9px 0 22px;font-size:12px}.journey{margin-top:33px;background:#f3eff9;border:1px solid #ece5f5;border-radius:16px;display:flex;align-items:center;gap:19px;padding:22px 25px}.journey-symbol{width:53px;height:53px;background:#e9dff6;display:grid;place-items:center;border-radius:14px;color:#ab90cd;flex-shrink:0;transform:rotate(-6deg)}.journey-symbol svg{width:27px;height:27px}.journey-copy h2{font:800 19px var(--heading);letter-spacing:-.2px;margin:4px 0}.journey-copy p{font-size:10px;color:#8f7d9e}.journey-progress{margin-left:auto;min-width:147px}.journey-progress>span{font-size:8px;color:#b1a3bd}.journey-progress b{color:#9d7cbb}.progress-track{height:5px;background:#e6deef;margin-top:9px;border-radius:5px;overflow:hidden}.progress-track>div{height:100%;width:0;background:#b194d1;border-radius:5px;transition:width .4s}.journey-button{display:grid;place-items:center;margin-left:7px;background:#e9e1f2;width:33px;height:33px;border-radius:50%;color:#af99c7}.journey-button:hover{background:#ded1ee}.journey-button svg{width:15px;height:15px}.little-note{display:flex;align-items:center;justify-content:center;gap:7px;font-size:9px;color:#b6a9c0;padding:24px 0 29px}.little-note svg{width:12px;height:12px}.footer{max-width:1440px;padding:22px 6% 26px;margin:auto;border-top:1px solid #eee9f4;display:flex;align-items:center;justify-content:space-between;gap:15px;color:#b3a9bf;font-size:8px}.footer-brand{display:flex;align-items:center;gap:7px;font:900 16px var(--heading);color:#aa98bc}.footer-brand svg{width:23px;height:23px;opacity:.8}.footer-star{color:#c2addb;padding-left:5px}.footer>button{background:transparent;font-size:8px;color:#b3a9bf;padding:5px}.footer>button:hover{color:var(--purple-dark)}
+
+dialog{color:var(--ink);border:1px solid #e9e0f3;padding:0;box-shadow:0 30px 100px #3c23452e}dialog::backdrop{background:#30214088;backdrop-filter:blur(7px)}body:has(dialog[open]){overflow:hidden}.game-dialog{max-width:1010px;width:calc(100% - 40px);border-radius:23px;overflow:auto;max-height:95dvh;background:#fbfaff}.game-modal-header{display:flex;align-items:center;gap:13px;padding:20px 25px}.modal-game-icon{width:45px;height:45px;border-radius:12px;display:grid;place-items:center;background:#eee4fc;color:var(--purple)}.modal-game-icon svg{width:25px;height:25px}.game-modal-header h2{font:900 24px var(--heading);margin-top:3px}.game-modal-actions{margin-left:auto;display:flex;gap:5px}.game-hud{padding:12px 27px;display:flex;align-items:center;justify-content:space-between;gap:10px;background:#f0eaf7;font-size:12px;font-weight:700;color:#8e70ae;min-height:44px}.game-hud>span:nth-child(2){color:#b08ac4}.game-stage{position:relative;overflow:hidden;background:#efe7f9;aspect-ratio:960/500;min-height:280px}.game-stage canvas{width:100%;height:100%;display:block;touch-action:none;object-fit:contain}.stage-overlay{position:absolute;inset:0;display:grid;place-items:center;background:#f6f0ff91;backdrop-filter:blur(5px);padding:20px;z-index:2}.overlay-content{text-align:center;max-width:420px;background:#fffffff2;border:1px solid white;padding:29px 35px;border-radius:22px;box-shadow:0 10px 40px #8c60aa17}.overlay-symbol{font-size:37px;display:block;color:#ac85cf;margin-bottom:9px}.overlay-content h3{font:900 28px/1.2 var(--heading);margin-bottom:12px;letter-spacing:-.5px}.overlay-content p{font-size:12px;line-height:1.8;color:#877194}.overlay-content .button{margin-top:20px}.overlay-content .result-score{font:1000 41px var(--heading);color:#a17ace;margin:10px 0 1px}.overlay-content .result-details{font-size:10px}.overlay-secondary{display:block;background:transparent;color:#a08ab5;font-size:11px;margin:14px auto 0;padding:5px}.game-help{padding:15px 24px;display:flex;justify-content:space-between;align-items:center;gap:15px;font-size:10px;color:#907c9e}.saved-note{display:flex;align-items:center;gap:5px;font-size:8px}.saved-note svg{width:13px;height:13px}.rhythm-pads{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;max-width:680px;margin:12px auto;padding:0 15px}.rhythm-pads button{display:flex;align-items:center;justify-content:center;gap:12px;background:color-mix(in srgb,var(--pad) 18%,white);border:1px solid color-mix(in srgb,var(--pad) 30%,white);color:var(--pad);font:900 18px var(--heading);border-radius:11px;height:45px;transition:background .08s,transform .08s;touch-action:none}.rhythm-pads button span{font-size:16px}.rhythm-pads button:active,.rhythm-pads button.pressed{background:var(--pad);color:white;transform:translateY(2px)}.memory-board{display:grid;grid-template-columns:repeat(4,1fr);gap:11px;padding:20px 80px;height:100%;position:absolute;inset:0}.memory-card{perspective:600px;position:relative;min-height:0;background:transparent;padding:0;border-radius:13px}.memory-card-inner{position:absolute;inset:0;transition:transform .35s;transform-style:preserve-3d;border-radius:13px}.memory-card.flipped .memory-card-inner,.memory-card.matched .memory-card-inner{transform:rotateY(180deg)}.card-front,.card-back{position:absolute;inset:0;backface-visibility:hidden;border-radius:13px;display:flex;align-items:center;justify-content:center;flex-direction:column;overflow:hidden}.card-back{background:linear-gradient(145deg,#b59bde,#9476c6);border:3px solid #ffffffc9;box-shadow:0 3px 0 #8a6bb599;color:#eee6ff;font-size:32px}.card-back:after{position:absolute;content:'';inset:7px;border:1px dashed #ffffff70;border-radius:7px}.card-front{background:#fffcff;transform:rotateY(180deg);border:2px solid #e5d4f4}.card-front svg{height:calc(100% - 24px);width:80%;max-height:106px}.card-front span{font:800 9px var(--heading);color:#a086b6;padding-bottom:6px}.memory-card.matched .card-front{border-color:#a7d6bd;background:#f3fcf6}.memory-card.matched{opacity:.7}.memory-card:focus-visible{outline-offset:2px}.info-dialog{width:calc(100% - 36px);max-width:660px;padding:28px;border-radius:22px;background:#fcfaff;max-height:90dvh;overflow:auto}.info-header{display:flex;align-items:center;justify-content:space-between;gap:10px}.info-header h2{font:900 30px var(--heading);margin-top:4px}.info-lead{font-size:12px;color:#a18eaf;line-height:1.8;margin:15px 0 22px}.achievements-grid{display:grid;grid-template-columns:1fr 1fr;gap:11px}.achievement{background:#f1edf6;border:1px solid #e9e2f2;border-radius:13px;padding:16px;opacity:.65}.achievement.unlocked{background:#fff8eb;border-color:#f0dfb8;opacity:1}.achievement-icon{font-size:25px;filter:grayscale(1);color:#b2a7c4}.achievement.unlocked .achievement-icon{filter:none;color:#c99c5f}.achievement h3{font:900 15px var(--heading);margin:8px 0 5px}.achievement p{font-size:10px;line-height:1.7;color:#a193ad}.achievement-status{display:block;font-size:8px;font-weight:700;color:#b6aac2;margin-top:11px}.achievement.unlocked .achievement-status{color:#c69d5c}.privacy-note{font-size:10px;color:#b5a7c0;margin:20px 0 0;text-align:center}.about-rainbow{display:grid;place-items:center;margin:20px auto 15px}.about-rainbow svg{width:80px;height:80px}.about-dialog>p{font-size:12px;line-height:1.9;color:#9b8ca7;margin:12px 0}.fan-note{background:#f1ebf7;padding:16px;border-radius:10px;font-size:10px;line-height:1.8;color:#ac9ab8;margin-top:18px}kbd{background:#ece4f6;border:1px solid #dfd1ed;padding:1px 5px;border-radius:4px;font:inherit}.toast{position:fixed;bottom:25px;left:50%;transform:translate(-50%,15px);max-width:90%;padding:14px 22px;background:#5c457a;color:white;border-radius:13px;font-size:12px;box-shadow:0 10px 35px #4c346b2b;opacity:0;transition:opacity .25s,transform .25s;pointer-events:none;z-index:40}.toast.visible{opacity:1;transform:translate(-50%,0)}
+
+@media(min-width:1600px){.header,.main,.footer{max-width:1510px}.hero{min-height:455px}.hero-copy{padding-top:51px}.card-art{height:228px}.card-body h3{font-size:25px}.card-body p{font-size:12px}.card-meta{font-size:10px}.card-bottom{margin-top:22px}.game-controls{font-size:10px}.play-button{font-size:12px}.card-record{font-size:10px}.section-top h2{font-size:32px}.hero-copy>p{font-size:14px}.feature-strip{font-size:12px}.hero-note{font-size:11px}.journey-copy p{font-size:11px}}@media(max-width:1100px){.header,.main,.footer{padding-left:4%;padding-right:4%}.navigation{gap:20px;margin-left:0}.hero-copy{padding-left:34px}.hero-wash{background:linear-gradient(90deg,#f0e9ff 0%,#f0e9fff2 20%,#f0e9ffb0 43%,transparent 75%)}.feature-strip{padding-left:5px;padding-right:5px;font-size:9px}.game-grid{gap:15px}.card-body{padding:16px 15px 0}.card-body h3{font-size:20px}.game-controls{font-size:7px}.play-button{padding:9px;gap:8px}.journey-copy h2{font-size:17px}}@media(max-width:760px){.header{height:82px;gap:12px}.brand{font-size:24px}.brand-mark svg{width:39px;height:39px}.brand i{font-size:7px;letter-spacing:.8px}.navigation{margin-left:auto;gap:13px}.nav-link{font-size:0;gap:0}.nav-link svg{width:21px;height:21px}.navigation .about-trigger{display:none}.nav-count{font-size:8px;position:absolute;right:-7px;top:21px;padding:0 4px}.nav-link.active:after{bottom:13px;width:18px}.header-actions{gap:0}.header-divider,.avatar{display:none}.hero{min-height:416px;border-radius:20px}.hero-art{object-position:63% 50%;opacity:.8}.hero-wash{background:linear-gradient(90deg,#f0e9ffed,#f0e9ffb5 45%,#f0e9ff15)}.hero-copy{padding:34px 27px;max-width:380px}h1{font-size:41px;letter-spacing:-1.4px}.hero-copy>p{font-size:11px}.hero-note{margin-top:22px}.hero-sticker{bottom:17px;right:16px;font-size:8px;padding:8px}.hero-sparkle{display:none}.feature-strip{display:grid;grid-template-columns:1fr 1fr;gap:14px;font-size:9px;padding:23px 10px}.feature-strip>b{display:none}.feature-strip>span:nth-of-type(even){justify-self:end}.games-section{padding-top:13px}.section-kicker{font-size:7px;letter-spacing:1.3px}.section-top h2{font-size:26px}.random-button{font-size:0;gap:0;border:1px solid #e8e0f1;border-radius:9px;padding:10px}.random-button svg{width:19px;height:19px}.random-button>span:last-child{display:none}.games-toolbar{margin:20px 0 16px}.toolbar-hint{font-size:0;gap:0}.toolbar-hint .online-dot{width:7px;height:7px;margin-right:7px}.filter{padding:7px 12px}.game-grid{grid-template-columns:1fr;gap:21px}.card-art{height:235px}.card-body{padding:19px 21px 0}.card-meta{font-size:10px}.game-duration{font-size:9px}.card-body h3{font-size:26px;margin-top:10px}.card-body p{font-size:12px;max-width:none;min-height:auto}.game-controls{font-size:10px}.play-button{font-size:12px;padding:11px 17px;gap:19px}.card-bottom{margin-top:22px}.card-record{font-size:10px;padding:13px 0}.genre-badge{font-size:9px;padding:6px 9px;top:17px;left:17px}.favorite-button{width:33px;height:33px;top:15px;right:16px}.favorite-button svg{width:17px;height:17px}.cover-caption{font-size:12px;left:20px;bottom:15px}.journey{padding:19px 17px;gap:13px;flex-wrap:wrap;margin-top:25px}.journey-symbol{width:43px;height:43px}.journey-copy{flex:1}.journey-copy h2{font-size:17px;max-width:230px;line-height:1.3;margin:5px 0}.journey-copy p{font-size:9px;line-height:1.7;max-width:230px}.journey-progress{margin-left:55px;min-width:160px;flex:1}.journey-button{height:29px;width:29px;margin-left:0}.little-note{font-size:8px;line-height:1.7;text-align:center;padding:21px 12px}.little-note>span{flex-shrink:0}.footer{flex-wrap:wrap;justify-content:center;padding-top:20px;padding-bottom:20px;column-gap:25px;row-gap:12px}.footer>button{width:100%}.game-dialog{width:calc(100% - 16px);border-radius:16px;max-height:97dvh}.game-modal-header{padding:14px 13px;gap:9px}.game-modal-header h2{font-size:19px}.game-modal-header .section-kicker{font-size:6px;letter-spacing:.8px}.modal-game-icon{width:35px;height:35px;border-radius:10px}.modal-game-icon svg{width:20px;height:20px}.game-modal-actions{gap:0}.game-modal-actions .icon-button{width:30px;height:33px}.game-modal-actions .icon-button svg{width:17px;height:17px}.game-hud{padding:12px 15px;font-size:10px}.game-stage{aspect-ratio:auto;height:min(49dvh,440px);min-height:270px}.game-stage canvas{object-fit:fill}.overlay-content{padding:23px 22px;max-width:340px}.overlay-content h3{font-size:25px}.overlay-content p{font-size:11px}.overlay-content .button{margin-top:17px}.overlay-symbol{font-size:30px;margin-bottom:7px}.game-help{font-size:9px;padding:13px;line-height:1.6}.saved-note{display:none}.memory-board{padding:16px;gap:9px;grid-template-columns:repeat(3,1fr)}.card-front svg{max-height:65px}.card-front span{font-size:8px}.memory-card-inner,.card-back,.card-front{border-radius:9px}.card-back:after{inset:5px;border-radius:5px}.rhythm-pads{gap:7px}.rhythm-pads button{height:47px;font-size:16px}.info-dialog{padding:23px 19px}.info-header h2{font-size:27px}.achievements-grid{gap:9px}.achievement{padding:13px}.achievement h3{font-size:14px}.achievement p{font-size:9px}.info-lead{font-size:11px}.toast{font-size:11px;bottom:17px;width:max-content;text-align:center}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}}
